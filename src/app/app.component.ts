@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'My_Project';
+
+
+  hideColor=true;
+
+  toggle(){
+    this.hideColor= !this.hideColor
+  }
 }
